@@ -3,8 +3,8 @@ import { Link } from "react-router"
 
 export default function BaseButton({title, location}) {
     return(
-        <div className={styles.button}>
-            <Link to={location}><p>{title}</p></Link>
-        </div>
+        <Link to={location} className={styles.button}>
+            <p>{title}</p>
+        </Link>
     )
 }

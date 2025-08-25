@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
+    align-self: center;
 }
 
 .button:hover {
@@ -19,7 +21,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.629);
 }
 
-a {
+p {
     padding: 0 0 0 21px;    
     text-decoration: none;
     color: black;
@@ -27,4 +29,8 @@ a {
     font-weight: bold;
     text-align: center;
     font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
 }

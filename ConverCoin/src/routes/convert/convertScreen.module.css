@@ -1,0 +1,51 @@
+* {
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+    width: 85vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Nunito;
+    padding: 2em 0 0 0;
+    text-align: center;
+}
+
+.coinIcon {
+    height: 30px;
+    width: 30px;
+    top: 3px;
+    position: relative;
+}
+
+.converAll {
+    margin-top: 10%;
+}
+
+p {
+    padding: 10px 0;
+}
+
+button {
+    padding: 13px 30px;
+    color: white;
+    background-color: #EBBC21;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.156);
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: #c09a1c;
+    box-shadow: 0 0 10px #ebc545;
+}

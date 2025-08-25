@@ -1,0 +1,67 @@
+@keyframes optionExpand {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+.customSelect {
+    width: 220px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    user-select: none;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s;
+}
+
+.selected {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected:hover {
+    border-color: #888;
+}
+
+.options {
+    left: 120%;
+    bottom: 0%;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    padding: 10px 0;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background: #f0f0f0;
+}
+
+.arrow {
+    font-size: 12px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    text-align: center;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.138);
+}
