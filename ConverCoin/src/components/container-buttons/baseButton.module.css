@@ -1,0 +1,30 @@
+.button {
+    padding: 13px 16px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    transition: all .3s;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgb(233, 231, 231);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.629);
+}
+
+a {
+    padding: 0 0 0 21px;    
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+}
