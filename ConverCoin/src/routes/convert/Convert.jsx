@@ -1,12 +1,10 @@
 import { useState } from "react";
 import styles from "./convert.module.css";
 
-export default function Convert({options, onChange}) {
+export default function Convert({ options, value, onChange }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selected, setSelected] = useState(options[0]);
 
   const handleSelect = (option) => {
-    setSelected(option);
     onChange(option);
     setIsOpen(false);
   };
@@ -17,7 +15,7 @@ export default function Convert({options, onChange}) {
         className={styles.selected}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span>{selected.label}</span>
+        <span>{value.label}</span>
         <span className={styles.option}>{isOpen ? "▲" : "▼"}</span>
       </div>
 
@@ -36,4 +34,4 @@ export default function Convert({options, onChange}) {
       )}
     </div>
   );
-};
+}

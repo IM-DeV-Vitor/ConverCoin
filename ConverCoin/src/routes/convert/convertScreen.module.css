@@ -24,7 +24,18 @@ h1 {
 }
 
 .converAll {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
     margin-top: 10%;
+}
+
+.converAll input {
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 10vw;
+    border-radius: 15px;
+    border: 1px solid lightgray;
 }
 
 p {

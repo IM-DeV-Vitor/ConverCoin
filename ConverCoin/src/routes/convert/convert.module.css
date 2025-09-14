@@ -10,7 +10,7 @@
 .customSelect {
     width: 220px;
     font-family: Arial, sans-serif;
-    position: relative;
+    position: relative; 
     user-select: none;
     left: 50%;
     transform: translateX(-50%);
@@ -33,15 +33,16 @@
 }
 
 .options {
-    left: 120%;
-    bottom: 0%;
+    position: absolute;   
+    top: 100%;           
+    left: 0;
     width: 100%;
     background: #fff;
     border-radius: 6px;
-    margin-top: 10px;
+    margin-top: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-    padding: 10px 0;
+    z-index: 1000;      
+    padding: 5px 0;
 }
 
 .option {
